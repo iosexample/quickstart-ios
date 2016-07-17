@@ -33,6 +33,7 @@
 		10B872C61CDC14C800C7D214 /* MyTopPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B872C51CDC14C800C7D214 /* MyTopPostsViewController.swift */; };
 		10F2262F1CDBEE7C005205F2 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F2262E1CDBEE7C005205F2 /* SignInViewController.m */; };
 		10F226321CDBEE95005205F2 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F226311CDBEE95005205F2 /* Post.m */; };
+		1D7C599366561247C1EE6C97 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BC9CFD470607F2882375D06 /* Pods.framework */; };
 		5F5A53521ADE670C00F81DF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A53511ADE670C00F81DF0 /* main.m */; };
 		5F5A53551ADE670C00F81DF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A53541ADE670C00F81DF0 /* AppDelegate.m */; };
 		5F5A53581ADE670C00F81DF0 /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5A53571ADE670C00F81DF0 /* NewPostViewController.m */; };
@@ -47,6 +48,9 @@
 		5FDE055D1B0DAA090037B82F /* AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FDE055C1B0DAA090037B82F /* AppTests.m */; };
 		EF94DD7B1CE533AC009A635D /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDCBD531CE4FCC800F68D48 /* PostTableViewCell.xib */; };
 		EFDCBD541CE4FCC800F68D48 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDCBD531CE4FCC800F68D48 /* PostTableViewCell.xib */; };
+		F6E9D5FA1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E9D5F91D3B7F0200893B80 /* GoogleService-Info.plist */; };
+		F6E9D5FB1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E9D5F91D3B7F0200893B80 /* GoogleService-Info.plist */; };
+		F6E9D5FC1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6E9D5F91D3B7F0200893B80 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +103,7 @@
 		10F2262E1CDBEE7C005205F2 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
 		10F226301CDBEE95005205F2 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		10F226311CDBEE95005205F2 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		5BC9CFD470607F2882375D06 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A534C1ADE670C00F81DF0 /* DatabaseExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F5A53501ADE670C00F81DF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F5A53511ADE670C00F81DF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -114,7 +119,10 @@
 		5F9961071AE0CF4F0034F503 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		5FDE05581B0DAA090037B82F /* DatabaseExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DatabaseExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FDE055C1B0DAA090037B82F /* AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppTests.m; sourceTree = "<group>"; };
+		6DBAAA76A80E5861BB0B71B3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EFDCBD531CE4FCC800F68D48 /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		F2DF1889A399112BA3DC1F17 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F6E9D5F91D3B7F0200893B80 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D7C599366561247C1EE6C97 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,11 +215,14 @@
 		5F5A53431ADE670C00F81DF0 = {
 			isa = PBXGroup;
 			children = (
+				F6E9D5F91D3B7F0200893B80 /* GoogleService-Info.plist */,
 				5F5A534E1ADE670C00F81DF0 /* DatabaseExample */,
 				5F5A537A1ADE67D500F81DF0 /* DatabaseExampleSwift */,
 				5FDE05591B0DAA090037B82F /* DatabaseExampleTests */,
 				5F5A534D1ADE670C00F81DF0 /* Products */,
 				5F9961041AE0CF4F0034F503 /* Shared */,
+				D74C5711C2C702B14F408536 /* Pods */,
+				9211D1367EA55D13FB949459 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 			wrapsLines = 0;
@@ -285,6 +297,23 @@
 			path = DatabaseExampleTests;
 			sourceTree = "<group>";
 		};
+		9211D1367EA55D13FB949459 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BC9CFD470607F2882375D06 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D74C5711C2C702B14F408536 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DBAAA76A80E5861BB0B71B3 /* Pods.debug.xcconfig */,
+				F2DF1889A399112BA3DC1F17 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -292,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5F5A536F1ADE670C00F81DF0 /* Build configuration list for PBXNativeTarget "DatabaseExample" */;
 			buildPhases = (
+				246A05B2033F8AA6041A52E0 /* Check Pods Manifest.lock */,
 				5F5A53481ADE670C00F81DF0 /* Sources */,
 				5F5A53491ADE670C00F81DF0 /* Frameworks */,
 				5F5A534A1ADE670C00F81DF0 /* Resources */,
+				9D5E39A6DFA22B3AD70B31DF /* Embed Pods Frameworks */,
+				3304EFF79322024BEBC7919C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,6 +421,7 @@
 			files = (
 				5F99610C1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
 				EFDCBD541CE4FCC800F68D48 /* PostTableViewCell.xib in Resources */,
+				F6E9D5FA1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */,
 				5F99610A1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 				5F5A535B1ADE670C00F81DF0 /* Main.storyboard in Resources */,
 			);
@@ -400,6 +433,7 @@
 			files = (
 				5F99610D1AE0CF4F0034F503 /* LaunchScreen.xib in Resources */,
 				5F5A539C1ADE69AA00F81DF0 /* Main.storyboard in Resources */,
+				F6E9D5FB1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */,
 				5F99610B1AE0CF4F0034F503 /* Images.xcassets in Resources */,
 				EF94DD7B1CE533AC009A635D /* PostTableViewCell.xib in Resources */,
 			);
@@ -409,10 +443,59 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E9D5FC1D3B7F0200893B80 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		246A05B2033F8AA6041A52E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3304EFF79322024BEBC7919C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D5E39A6DFA22B3AD70B31DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5F5A53481ADE670C00F81DF0 /* Sources */ = {
@@ -575,13 +658,13 @@
 		};
 		5F5A53701ADE670C00F81DF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBAAA76A80E5861BB0B71B3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$CONFIGURATION_BUILD_DIR/FirebaseUI\"",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
 					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
 					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
@@ -598,13 +681,13 @@
 		};
 		5F5A53711ADE670C00F81DF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DF1889A399112BA3DC1F17 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$CONFIGURATION_BUILD_DIR/FirebaseUI\"",
 					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
 					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
 					"\"${PODS_ROOT}/GoogleInterchangeUtilities/Frameworks\"",
